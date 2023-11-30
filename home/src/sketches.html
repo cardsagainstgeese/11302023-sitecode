@@ -1,0 +1,10 @@
+---
+layout: mainblog.html
+---
+<div class="box">
+    <ul>
+    {% for sketch in sketches reversed %}
+      <li><A href="{{ post.url }}">{{ post.date | readableDate }}: {{ post.data.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>

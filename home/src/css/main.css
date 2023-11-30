@@ -1,0 +1,157 @@
+/*properties for whole website*/
+body {
+    background-color: black;
+    color: white;
+    font-family: "Helvetica";
+    padding: 0;
+    margin: 0 auto;
+    height: 100%
+  }
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: white;
+  }
+  
+::selection {
+    color: black;
+    background: white;
+  }
+
+a {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit
+  }
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+  }
+a:active {
+    color: white;
+    background-color: white;
+    text-decoration: underline;
+  }
+
+/*properties for header items*/
+#header {
+    align-content: center;
+    margin: 0 auto;
+    width: 960px;
+  }
+
+#header nav {
+    margin: 0px;
+    overflow: hidden;
+    top: 0;
+    padding: 2px;
+  }
+  
+#header nav a {
+    float: left;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px 14px;
+    text-decoration: none;
+  }
+  
+#header nav a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+hr{
+    height: 1px;
+    background-color: white;
+  }
+
+#sitename {
+    font-size: 64px;
+    margin: 0;
+    padding: 15pt 0pt;
+  }
+
+/*properties for main container items*/
+#container {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0 auto;
+    width: 960px;
+  }
+
+.main{
+    width: 650px;
+      float: left;
+      vertical-align: top;
+      text-align: left;
+  }
+.main .inner {
+    padding: 15pt;
+  }
+
+.sidebar-right {
+      width: 269px;
+      float: right;
+      vertical-align: top;
+      text-align: left;
+  }
+
+.sidebar-right .inner {
+    padding: 10pt;
+  }
+  
+.box {
+        border: 1px solid white;
+        padding: 0;
+  }
+  
+.post-top{
+    padding: 10pt;
+    border-bottom: 1px solid white;
+  }
+  
+.sidebar-top{
+    padding: 5pt;
+    border-bottom: 1px solid white;
+  }
+  
+.box h1, .box h2, .box h3, .box h4, .box h5 {
+    margin: 0;
+    padding: 10pt;
+  }
+  
+.post-top h1, .post-top h2, .post-top h3, .post-top h4, .post-top h5 {
+    margin: 0;
+    padding: 5pt;
+  }
+  
+.inner h1, .inner h2, .inner h3, .inner h4, .inner h5 {
+    margin: 0;
+    padding-left: 0pt;
+  }
+
+/*properties for footer items*/
+#footer {
+    align-content: center;
+    margin: 0 auto;
+    width: 960px;
+  }
+
