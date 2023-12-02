@@ -4,7 +4,7 @@ layout: mainblog.html
 <div class="box">
     <ul>
     {% for sketch in sketches reversed %}
-      <li><A href="{{ page.url }}">{{ page.date | readableDate }}: {{ sketch.title }}</a></li>
+      <li><A href="{{ sketch.url }}">{{ sketch.date | readableDate }}: {{ sketch.title }}</a></li>
     {% endfor %}
     </ul>
 </div>
