@@ -1,0 +1,14 @@
+[
+	{
+		"title": "Tall Stick Figure",
+		"date": "2023-11-27",
+		"image": "/sketches/tall-stick-figure.png",
+		"desc": "My description about tall stick figure"
+	},
+	{
+		"title": "Smiling Stick Figure",
+		"date": "2023-11-28",
+		"image": "/sketches/smiling-stick-figure.png",
+		"desc": "My description about smiling and other stick figures"
+	}
+]

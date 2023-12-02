@@ -1,0 +1,16 @@
+---
+layout: mainblog.html
+---
+<div class="box">
+  <div class="post-top">
+    <h1>Sketches</h1>
+  </div>
+  <div class=inner>
+  <p>This is where my sketches live! Mainly you'll see a lot of character art, maybe even a few drawings of the same character(s) here and there... Regardless anything in my sketchbook that I am proud to share here, I will.</p>
+    <ul>
+    {% for sketch in sketches reversed %}
+      <li><a href="/sketches/{{ sketch.title | slugify }}/">{{ sketch.date | toLuxonDateTime | readableDate }}: {{ sketch.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
