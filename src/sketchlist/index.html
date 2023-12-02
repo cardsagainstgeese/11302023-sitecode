@@ -3,8 +3,8 @@ layout: mainblog.html
 ---
 <div class="box">
     <ul>
-    {% for sketch in collections.sketches reversed %}
-      <li><A href="{{ post.url }}">{{ sketch.data.date | readableDate }}: {{ sketch.data.title }}</a></li>
+    {% for sketch in sketches reversed %}
+      <li><A href="{{ page.url }}">{{ page.date | readableDate }}: {{ sketch.title }}</a></li>
     {% endfor %}
     </ul>
 </div>
